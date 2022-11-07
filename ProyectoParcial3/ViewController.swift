@@ -9,6 +9,10 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    //var checked = false
+    
+    
+    
     var materias : [Materia] = []
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -26,6 +30,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     celda.lblMateria.text = materias[indexPath.row].materia
                     celda.lblHorario.text = materias[indexPath.row].horario
                     celda.lblFaltas.text = materias[indexPath.row].faltas
+                    celda.imgCheck.image = UIImage(named: materias[indexPath.row].check)
         
                 return celda
     }
@@ -34,9 +39,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        materias.append(Materia(materia:"Progamación", horario: "7:00 am - 9:00 am", faltas: "3" ))
-        materias.append(Materia(materia:"Animación", horario: "9:00 am - 11:00 am", faltas: "1"))
-        materias.append(Materia(materia:"Diosito", horario: "11:00 am - 12:00 pm", faltas: "0"))
+        materias.append(Materia(materia:"Progamación", horario: "7:00 am - 9:00 am", faltas: "3", check: "check1"))
+        materias.append(Materia(materia:"Animación", horario: "9:00 am - 11:00 am", faltas: "1", check: "check1"))
+        materias.append(Materia(materia:"Diosito", horario: "11:00 am - 12:00 pm", faltas: "0", check: "check1"))
         
         
     }
