@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB7522A92919989500360061 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7522A82919989500360061 /* Alumno.swift */; };
 		FB7619F929195B34002AE06B /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7619F829195B34002AE06B /* Contacto.swift */; };
 		FB7619FB29195D61002AE06B /* ContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7619FA29195D61002AE06B /* ContactoController.swift */; };
 		FBD3B91729155E9400CD03AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3B91629155E9400CD03AE /* AppDelegate.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB7522A82919989500360061 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
 		FB7619F829195B34002AE06B /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
 		FB7619FA29195D61002AE06B /* ContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoController.swift; sourceTree = "<group>"; };
 		FBD3B91329155E9400CD03AE /* ProyectoParcial3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoParcial3.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 				FBD3B946291561FD00CD03AE /* CeldaMateriaController.swift */,
 				FBD3B9482915679B00CD03AE /* Materia.swift */,
 				FB7619FA29195D61002AE06B /* ContactoController.swift */,
+				FB7522A82919989500360061 /* Alumno.swift */,
 			);
 			path = ProyectoParcial3;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				FBD3B91B29155E9400CD03AE /* ViewController.swift in Sources */,
 				FBD3B91729155E9400CD03AE /* AppDelegate.swift in Sources */,
 				FB7619F929195B34002AE06B /* Contacto.swift in Sources */,
+				FB7522A92919989500360061 /* Alumno.swift in Sources */,
 				FB7619FB29195D61002AE06B /* ContactoController.swift in Sources */,
 				FBD3B9492915679B00CD03AE /* Materia.swift in Sources */,
 				FBD3B91929155E9400CD03AE /* SceneDelegate.swift in Sources */,
