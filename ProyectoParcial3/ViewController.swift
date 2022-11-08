@@ -55,10 +55,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 lblTel1.text = alumno[0].tel1
                 lblTel2.text = alumno[0].tel2
         
-        materias.append(Materia(materia:"Progamación", horario: "7:00 am - 9:00 am", imagen: "fotito"))
-        materias.append(Materia(materia:"Animación", horario: "9:00 am - 11:00 am", imagen: "fotito"))
-        materias.append(Materia(materia:"Diosito", horario: "11:00 am - 12:00 pm", imagen: "fotito"))
-        
+        materias.append(Materia(materia:"Progamación", horario: "7:00 am - 9:00 am", imagen: "fotito", faltas: "1", check: "check2"))
+        materias.append(Materia(materia:"Animación", horario: "9:00 am - 11:00 am", imagen: "fotito", faltas: "1", check: "check2"))
+        materias.append(Materia(materia:"Diosito", horario: "11:00 am - 12:00 pm", imagen: "fotito", faltas: "1", check: "check2"))
         
     }
     

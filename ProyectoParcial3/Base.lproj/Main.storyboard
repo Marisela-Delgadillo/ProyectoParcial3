@@ -389,7 +389,7 @@
         <!--Clase-->
         <scene sceneID="1M3-tY-5cN">
             <objects>
-                <viewController id="GXZ-MV-OGY" sceneMemberID="viewController">
+                <viewController id="GXZ-MV-OGY" customClass="DetallesMateria" customModule="ProyectoParcial3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xxL-aM-DyI">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -449,6 +449,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Clase" id="fGW-Rf-Z1q"/>
+                    <connections>
+                        <outlet property="imgCheck" destination="T1e-o2-uh9" id="MsP-oX-knK"/>
+                        <outlet property="imgPortada" destination="wb3-Xi-obI" id="pgB-2K-fK7"/>
+                        <outlet property="lblFaltas" destination="Nac-HT-Ymd" id="FaU-5e-VB1"/>
+                        <outlet property="lblHorario" destination="S06-kU-YyC" id="e0n-TN-hNF"/>
+                        <outlet property="lblMateria" destination="RpW-D4-EGO" id="apG-wj-gQM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HLn-sp-tV9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
