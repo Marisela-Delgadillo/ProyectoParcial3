@@ -7,6 +7,12 @@
 
 import UIKit
 
-//class DetallesMateria : UIViewController, UITableViewDelegate, UITableViewDataSource {
+class DetallesMateria : UIViewController {
     
-//}
+    var materia : Materia?
+    
+    
+    
+    
+    
+}
