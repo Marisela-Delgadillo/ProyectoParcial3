@@ -10,6 +10,9 @@ import UIKit
 class DetallesMateria : UIViewController {
     
     var materia : Materia?
+    var checked = false
+    
+    var callBackActualizarAsistencia : ((Materia) -> Void)?
     
     @IBOutlet weak var imgPortada: UIImageView!
     @IBOutlet weak var lblMateria: UILabel!
@@ -24,14 +27,35 @@ class DetallesMateria : UIViewController {
             super.viewDidLoad()
             
             if materia != nil{
+                self.title = materia!.materia
+                imgPortada.image = UIImage(named: materia!.imagen)
+                lblMateria.text = materia!.materia
+                lblHorario.text = materia!.horario
+                lblFaltas.text = materia!.faltas
+
+                    imgCheck.image = UIImage(named: materia!.check)
+
                 
-                imgPortada.image = UIImage(named: materia!.portada)
+                
                 
                 //lblMatricula.text = alumno?.matricula
                 //lblEdad.text = "\(alumno!.edad)"
                 //lblCarrera.text = alumno!.carrera
             } else{
-                self.title = "Artista"
+                self.title = "Materia"
             }
         }
+    
+    @IBAction func doTapCheck(_ sender: Any) {
+        //if callBackActualizar != nil 
+        //checked = !checked
+        //imgCheck.image = UIImage(named: "check1")
+        if (materia?.check == "check2")
+        {
+            materia?.check = "check1"
+            callBackActualizarAsistencia!(materia!)
+        }
+        
+        
+    }
 }

@@ -12,6 +12,7 @@ class Materia {
     var faltas : String
     var check : String
     
+    
     init(materia:String, horario: String, imagen: String, faltas : String, check : String){
         self.materia = materia
         self.horario = horario
