@@ -42,6 +42,7 @@ class DetallesMateria : UIViewController {
             if materia != nil{
                 self.title = materia!.materia
                 imgPortada.image = UIImage(named: materia!.imagen)
+                
                 lblMateria.text = materia!.materia
                 lblMaestro.text = materia!.maestro
                 lblHorario.text = materia!.horario

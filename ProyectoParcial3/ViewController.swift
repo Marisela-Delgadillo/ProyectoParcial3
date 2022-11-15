@@ -24,7 +24,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet weak var imgFoto: UIImageView!
     var materias : [Materia] = []
-    var alumno : Alumno? = Alumno(nombre: "Marisela Delgadillo",foto:"fotito", matricula: "199419", nombreContacto: "Victor Delgadillo", parentesco: "Papá", tel1: "6441012512", tel2: "6441278477")
+    var alumno : Alumno? = Alumno(nombre: "Marisela Delgadillo",foto:"fotito", matricula: "199419", nombreContacto: "Victor Hugo Delgadillo Chong", parentesco: "(Padre)", tel1: "6441012512", tel2: "6441278477")
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return materias.count
     }
@@ -40,6 +40,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     celda.lblMateria.text = materias[indexPath.row].materia
                     celda.lblHorario.text = materias[indexPath.row].horario
                     celda.imgImagen.image = UIImage(named: materias[indexPath.row].imagen)
+                    celda.imgImagen.layer.cornerRadius = 20
+                    celda.imgImagen.clipsToBounds = true
         
         
                 return celda
@@ -58,9 +60,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 lblTel1.text = alumno?.tel1
                 lblTel2.text = alumno?.tel2
         
-        materias.append(Materia(materia:"Progamación",maestro: "Emiliano", horario: "7:00 am - 9:00 am", imagen: "fotito", faltas: "1", check: "check2", rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
-        materias.append(Materia(materia:"Animación",maestro: "Guillermo", horario: "9:00 am - 11:00 am", imagen: "fotito", faltas: "1", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2",evaluacion: 0 ))
-        materias.append(Materia(materia:"Diosito",maestro: "Francisco", horario: "11:00 am - 12:00 pm", imagen: "fotito", faltas: "1", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
+        materias.append(Materia(materia:"Progamación",maestro: "Emiliano", horario: "7:00 am - 9:00 am", imagen: "programacion", faltas: "0", check: "check2", rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
+        materias.append(Materia(materia:"Animación",maestro: "Guillermo", horario: "9:00 am - 11:00 am", imagen: "animacion", faltas: "2", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2",evaluacion: 0 ))
+        materias.append(Materia(materia:"Diosito",maestro: "Francisco", horario: "11:00 am - 12:00 pm", imagen: "diosito", faltas: "3", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
+        materias.append(Materia(materia:"Redes",maestro: "Ruben Omar", horario: "12:00 pm - 2:00 pm", imagen: "redes", faltas: "1", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
+        materias.append(Materia(materia:"Mexico",maestro: "Rosalva Ruiz", horario: "2:00 pm - 4:00 pm", imagen: "mexico", faltas: "2", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
         
     }
     

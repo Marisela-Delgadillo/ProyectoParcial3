@@ -24,6 +24,8 @@ class ComidaController :  UIViewController, UITableViewDelegate, UITableViewData
                     celda.lblComida.text = comidas[indexPath.row].comida
                     celda.lblPrecio.text = comidas[indexPath.row].precio
                     celda.imgImagen.image = UIImage(named: comidas[indexPath.row].imagen)
+                    celda.imgImagen.layer.cornerRadius = 20
+                    celda.imgImagen.clipsToBounds = true
         
                 return celda
     }
@@ -31,16 +33,16 @@ class ComidaController :  UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        comidas.append(Comida( imagen: "fotito", comida: "Tacos", precio: "$15"))
-        comidas.append(Comida( imagen: "fotito", comida: "Mollete", precio: "$17"))
-        comidas.append(Comida( imagen: "fotito", comida: "Sandwich", precio: "$23"))
-        comidas.append(Comida( imagen: "fotito", comida: "Torta", precio: "$23"))
-        comidas.append(Comida( imagen: "fotito", comida: "Burritos", precio: "$23"))
-        comidas.append(Comida( imagen: "fotito", comida: "Lucas", precio: "$6"))
-        comidas.append(Comida( imagen: "fotito", comida: "Sabritas", precio: "$17"))
-        comidas.append(Comida( imagen: "fotito", comida: "Pañalito", precio: "$11"))
-        comidas.append(Comida( imagen: "fotito", comida: "Nachos", precio: "$30"))
-        comidas.append(Comida( imagen: "fotito", comida: "Quesadillas", precio: "$20"))
+        comidas.append(Comida( imagen: "tacos", comida: "Tacos", precio: "$15"))
+        comidas.append(Comida( imagen: "mollete", comida: "Mollete", precio: "$17"))
+        comidas.append(Comida( imagen: "sandwich", comida: "Sandwich", precio: "$23"))
+        comidas.append(Comida( imagen: "torta", comida: "Torta", precio: "$23"))
+        comidas.append(Comida( imagen: "burritos", comida: "Burritos", precio: "$23"))
+        comidas.append(Comida( imagen: "lucas", comida: "Lucas", precio: "$6"))
+        comidas.append(Comida( imagen: "sabritas", comida: "Sabritas", precio: "$17"))
+        comidas.append(Comida( imagen: "panalito", comida: "Pañalito", precio: "$11"))
+        comidas.append(Comida( imagen: "nachos", comida: "Nachos", precio: "$30"))
+        comidas.append(Comida( imagen: "quesadillas", comida: "Quesadillas", precio: "$20"))
         
         
     }
