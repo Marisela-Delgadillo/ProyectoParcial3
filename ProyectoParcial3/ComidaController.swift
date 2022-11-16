@@ -13,7 +13,7 @@ class ComidaController :  UIViewController, UITableViewDelegate, UITableViewData
         return comidas.count
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 130
+        return 99
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1

@@ -60,11 +60,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 lblTel1.text = alumno?.tel1
                 lblTel2.text = alumno?.tel2
         
-        materias.append(Materia(materia:"Progamación",maestro: "Emiliano", horario: "7:00 am - 9:00 am", imagen: "programacion", faltas: "0", check: "check2", rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
+        materias.append(Materia(materia:"Programación",maestro: "Emiliano", horario: "7:00 am - 9:00 am", imagen: "programacion", faltas: "0", check: "check2", rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
         materias.append(Materia(materia:"Animación",maestro: "Guillermo", horario: "9:00 am - 11:00 am", imagen: "animacion", faltas: "2", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2",evaluacion: 0 ))
         materias.append(Materia(materia:"Diosito",maestro: "Francisco", horario: "11:00 am - 12:00 pm", imagen: "diosito", faltas: "3", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
         materias.append(Materia(materia:"Redes",maestro: "Ruben Omar", horario: "12:00 pm - 2:00 pm", imagen: "redes", faltas: "1", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
-        materias.append(Materia(materia:"Mexico",maestro: "Rosalva Ruiz", horario: "2:00 pm - 4:00 pm", imagen: "mexico", faltas: "2", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
+        materias.append(Materia(materia:"México",maestro: "Rosalva Ruiz", horario: "2:00 pm - 4:00 pm", imagen: "mexico", faltas: "2", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
         
     }
     

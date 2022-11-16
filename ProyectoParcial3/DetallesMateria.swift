@@ -40,7 +40,7 @@ class DetallesMateria : UIViewController {
             super.viewDidLoad()
             
             if materia != nil{
-                self.title = materia!.materia
+                self.title = ""
                 imgPortada.image = UIImage(named: materia!.imagen)
                 
                 lblMateria.text = materia!.materia
