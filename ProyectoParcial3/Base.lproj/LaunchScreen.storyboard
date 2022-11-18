@@ -16,19 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InfoSchool" translatesAutoresizingMaskIntoConstraints="NO" id="q4z-VE-NA0">
-                                <rect key="frame" x="117" y="373" width="157" height="98"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InfoSchool" translatesAutoresizingMaskIntoConstraints="NO" id="ktv-uK-ALm">
+                                <rect key="frame" x="108" y="325.66666666666669" width="174" height="193.00000000000006"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                         <constraints>
-                            <constraint firstItem="q4z-VE-NA0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="326" id="4Cn-LO-cdB"/>
-                            <constraint firstItem="q4z-VE-NA0" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.402564" id="8Dc-Uk-KRj"/>
-                            <constraint firstItem="q4z-VE-NA0" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.116114" id="fC6-3R-8hC"/>
-                            <constraint firstItem="q4z-VE-NA0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="h7s-v1-AUb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="q4z-VE-NA0" secondAttribute="bottom" constant="339" id="lx2-g8-5wU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q4z-VE-NA0" secondAttribute="trailing" constant="116" id="sUQ-vc-GQF"/>
+                            <constraint firstItem="ktv-uK-ALm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Asn-mZ-adG"/>
+                            <constraint firstItem="ktv-uK-ALm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="e7l-4g-5Q6"/>
+                            <constraint firstItem="ktv-uK-ALm" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.228673" id="eVo-kh-v0i"/>
+                            <constraint firstItem="ktv-uK-ALm" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.446154" id="mSJ-UT-9vx"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -175,10 +175,10 @@
 				FB2851022923E5C00039FA5E /* MADE TOMMY Regular_PERSONAL USE.otf */,
 				FB2850FA2923E5C00039FA5E /* MADE TOMMY Thin Outline_PERSONAL USE.otf */,
 				FB2850FC2923E5C00039FA5E /* MADE TOMMY Thin_PERSONAL USE.otf */,
+				FB2850F42923E5B00039FA5E /* Montserrat-Italic-VariableFont_wght.ttf */,
 				FBD3B92129155E9500CD03AE /* LaunchScreen.storyboard */,
 				FBD3B92429155E9500CD03AE /* Info.plist */,
 				FBD3B946291561FD00CD03AE /* CeldaMateriaController.swift */,
-				FB2850F42923E5B00039FA5E /* Montserrat-Italic-VariableFont_wght.ttf */,
 				FB2850F52923E5B00039FA5E /* Montserrat-VariableFont_wght.ttf */,
 				FBD3B9482915679B00CD03AE /* Materia.swift */,
 				FB7619FA29195D61002AE06B /* ContactoController.swift */,
@@ -551,6 +551,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProyectoParcial3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InfoSchool;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -578,6 +579,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProyectoParcial3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InfoSchool;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
