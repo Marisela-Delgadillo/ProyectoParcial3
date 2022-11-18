@@ -26,6 +26,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rk7-jl-DLb">
                         <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.67430030249999995" green="0.67471914229999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="MADETOMMY-Bold" family="MADE TOMMY" pointSize="22"/>
                             <color key="textColor" systemColor="systemIndigoColor"/>
@@ -415,7 +416,7 @@
                             <constraint firstItem="yZ6-m4-aC0" firstAttribute="height" secondItem="aIW-zt-hHO" secondAttribute="height" multiplier="0.841232" id="yld-LO-xnT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Calendario de pagos" id="Kxp-V4-kYc"/>
+                    <navigationItem key="navigationItem" title="Calendario de pagos" style="editor" id="Kxp-V4-kYc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qpX-5C-jpz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -495,7 +496,7 @@
                             <constraint firstItem="crF-3u-rpi" firstAttribute="centerX" secondItem="ek6-mm-Quo" secondAttribute="centerX" id="mpk-Mb-onU"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Menú" id="can-nm-aYq"/>
+                    <navigationItem key="navigationItem" title="Menú" style="editor" id="can-nm-aYq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jBf-xf-YPw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -741,7 +742,7 @@
                             <constraint firstItem="zFn-yd-laO" firstAttribute="width" secondItem="xxL-aM-DyI" secondAttribute="width" multiplier="0.561538" id="yY0-BZ-GB6"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Clase" id="fGW-Rf-Z1q"/>
+                    <navigationItem key="navigationItem" title="Clase" style="editor" id="fGW-Rf-Z1q"/>
                     <connections>
                         <outlet property="imgCheck" destination="T1e-o2-uh9" id="MsP-oX-knK"/>
                         <outlet property="imgPortada" destination="wb3-Xi-obI" id="pgB-2K-fK7"/>
